@@ -1,12 +1,56 @@
-# React + Vite
+# 💱 React Currency Exchanger
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern, responsive **Currency Converter App** built using **React** and **custom hooks**, styled with inline styles and a soft, consistent color palette. It fetches live exchange rates and allows users to convert amounts between different currencies.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+👉 [https://mahnoorshabbir-currencyexchanger.vercel.app/](https://mahnoorshabbir-currencyexchanger.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- 🔁 Swap between currencies instantly
+- 💰 Live conversion based on real-time exchange rates
+- 🧠 Built using a custom React hook `useCurrencyInfo`
+- 🖌️ Styled entirely with inline styles (no Bootstrap color classes)
+- 📱 Responsive and mobile-friendly layout
+
+---
+
+## 🛠 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Custom Hooks](https://reactjs.org/docs/hooks-custom.html)
+- [Vercel](https://vercel.com/) for deployment
+
+---
+
+## 📁 Project Structure
+
+src/
+├── App.jsx # Main application logic and layout
+├── components/
+│ └── Code.jsx # Reusable input + currency selector
+├── hooks/
+│ └── currencyinfo.js # Custom hook for fetching exchange rates
+
+---
+
+## 📦 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/currency-exchanger.git
+
+# Navigate to the project folder
+cd currency-exchanger
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
